@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.grow-list{
+    flex-grow: 1;
+    margin-left: 110px;
+
+    /*  style the list items of navbar  */
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+    font-style: normal;
+    line-height: 24px;
+}
+.list {
+    cursor: pointer;
+}
+.list :hover{
+    color: #5955b3;
+}
+
+/*  style the button of navbar  */
+
+.button-group{
+    margin-right: 40px;
+}
+.nav-button{
+    padding: 14px 20px;
+    background-color: #5955b3;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+.nav-button:hover{
+    color: #000;
+}
+
+/*  style the banner */
+.banner-container{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+/*  style the left text of the banner */
+
+.heading-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #3c2f60;
+}
+.heading-text span{
+    color: #5955b3;
+}
+
+/*  paragraf of banner */
+
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+}
+.right-imag{
+    margin-top: 0;
+}
+
+.btn {
+    margin-top: 70px;
+}
